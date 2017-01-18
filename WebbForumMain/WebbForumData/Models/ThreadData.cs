@@ -4,16 +4,15 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-
 namespace WebbForumData.Models
 {
-    public class SubForumData
+    public class ThreadData
     {
         [Key]
-        public Guid SubForumId { get; set; }
+        public Guid ThreadId { get; set; }
+        public string ThreadTitle { get; set; }
 
-        public string SubForumTitle { get; set; }
-
+        public Guid Topicid { get; set; }
 
     }
 }

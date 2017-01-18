@@ -98,6 +98,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\SubForumData.cs" />
+    <Compile Include="Models\ThreadData.cs" />
+    <Compile Include="Models\TopicData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
