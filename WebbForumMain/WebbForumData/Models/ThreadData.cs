@@ -13,6 +13,7 @@ namespace WebbForumData.Models
         public string ThreadTitle { get; set; }
 
         public Guid Topicid { get; set; }
+        
 
     }
 }
